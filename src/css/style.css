@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Futura Book';
+  src: url("../fonts/futura/FuturaBookC.woff") format("woff"), url("../fonts/futura/FuturaBookC.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap; }
+
+@font-face {
+  font-family: 'Futura Demi';
+  src: url("../fonts/futura/FuturaDemiC.woff") format("woff"), url("../fonts/futura/FuturaDemiC.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap; }
+
+@font-face {
+  font-family: 'Bebas Regular';
+  src: url("../fonts/BebasRegular/BebasRegular.woff") format("woff"), url("../fonts/BebasRegular/BebasRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.text-box {
+  padding-top: 2rem; }
+
+.result {
+  margin-bottom: 0;
+  margin-top: 3rem; }
+  .result--opensans {
+    font-family: 'Open Sans', sans-serif; }
+  .result--bebasregular {
+    font-family: 'Bebas Regular'; }
+  .result--badscipt {
+    font-family: 'Bad Script', cursive; }
+  .result--lobster {
+    font-family: 'Lobster', cursive; }
+
+.fonts {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem; }
+
+small {
+  font-size: 1.3rem; }
